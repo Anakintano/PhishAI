@@ -126,27 +126,6 @@ Chrome Extension → REST API → Qwen Agent → {email_model.pkl | url_model.pk
 
 ---
 
-## 🧩 Folder Structure
-
-```
-phish-ai/
-├── backend/
-│   ├── app.py                # REST API
-│   ├── qwen_agent.py         # Qwen reasoning + routing logic
-│   ├── email_model.pkl       # Pretrained email phishing detector
-│   ├── url_model.pkl         # Pretrained URL phishing detector
-│   └── utils/
-│       └── preprocess.py     # Input parsing, cleaning, etc.
-├── extension/
-│   ├── manifest.json         # Chrome extension manifest
-│   ├── popup.html            # UI for verdict display
-│   ├── popup.js              # Handles API call and badge updates
-│   └── content.js            # Extracts email/URL from pages
-├── README.md
-└── requirements.txt
-```
-
----
 
 ## 🚀 How It Works (Step-by-Step)
 
@@ -221,5 +200,3 @@ MIT License © 2025 Phish AI Authors
 
 ---
 
-Would you like me to include a **diagram image prompt** for this README (the same architecture visual we discussed earlier)?
-I can generate a perfect **image-generation prompt** so your README has a consistent visual theme.
